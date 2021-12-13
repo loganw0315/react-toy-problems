@@ -6,7 +6,7 @@ import Palindrome from '../Topics/Palindrome';
 import Sum from '../Topics/Sum';
 class TopicBrowser extends Component {
     render() {
-     return(<div>
+     return(<div className='parent'>
         <EvenAndOdd />
         <FilterObject />
         <FilterString />
