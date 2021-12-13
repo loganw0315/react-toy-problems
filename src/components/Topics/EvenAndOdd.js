@@ -28,7 +28,7 @@ class EvenAndOdd extends Component {
         <div className='puzzleBox evenAndOddPB'>
             <h4 >Even and Odd</h4>
             <input name="userInput" type="text" className='inputLine' onChange={this.handleChange} placeholder='Enter numbers here'></input>
-            <button className='confirmationButton' onClick={this.handleClick}>Confirm</button>
+            <button className='confirmationButton' onClick={this.handleClick}>Submit</button>
             <span className='resultsBox'>Evens: {this.state.evenArray.join(",")}</span>
             <span className='resultsBox'>Odds: {this.state.oddArray.join(",")}</span>
         </div>
